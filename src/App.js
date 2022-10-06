@@ -16,12 +16,12 @@ const App = () => {
           `https://www.breakingbadapi.com/api/characters`
         )
 
+        
         console.log(result.data)
-
         setCharacters(result.data)
         setIsLoading(false)
       }
-
+      
       fetchItems()
     }, []
   )
