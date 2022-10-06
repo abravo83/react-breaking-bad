@@ -1,3 +1,6 @@
+
+//This component gets a single item coming from the APIs whole characters array
+//And displays as a card using the API data (image, name, etc)
 const CharacterItem = ({item}) => {
   return (
   <div className="card">
